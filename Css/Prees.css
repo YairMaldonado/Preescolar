@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.superior{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.head{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.arribita{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: end;
+    margin: 0 4rem;
+    text-align: end;
+    float: right;
+}
+.encabezado{    
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo{
+    background-color: #f8f1da;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #002164;
+}
+.navegacion{
+    width: 100%;
+    height: 11rem;
+    display: flex;
+    background-color: #f8f1da;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 90px;
+}
+.navegacion img{
+    margin: 0 90px;
+    width: 8.2rem;
+}
+.head2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.nave{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 4rem;
+    text-align: end;
+    float: right;
+}
+.nave a{
+    text-decoration: none;
+    color: #002164;
+    font-weight: bold;
+}
+.portada1{
+    width: 100%;
+    height: 90vh;
+    margin-top: 170px;
+}
+.portada1 img{
+    width: 100%;
+    height: 90vh;
+}
+
+.portada1 img{
+    width: 100%;
+    height: 90vh;
+}
+.taller{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 90px;
+    background: url(../Img/Fondo\ 3.png);
+}
+.lado1{
+    display: flex;
+
+    width: 50%;
+
+}
+.lado1 img{
+    width: 100%;
+}
+.lado2{
+    padding: 50px;
+    font-size: 30px;
+}
+
+.encabezado-principal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+}
+.encabezado-principal h1{
+    font-size: 50px;
+}
+.tex3 {
+    font-size: 18px;
+    border-radius: 10px; 
+    padding: 10px; 
+    text-align: justify;
+  }    
+.tab2{
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 25%;
+    height: 330px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }  
+  .tex51{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: #365ea8;
+    width: 390px;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+  }
+  /* Style the buttons inside the tab */
+  .tab2 button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab2 button:hover {
+    background-color: #365ea8;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab2 button.active {
+    background-color: #2e9afe;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  /* Style the tab content */
+  .tabcontent2 {
+    float: left;
+    padding: 0px 12px;
+    width: 75%;
+    border-left: none;
+    height: 330px;
+    display: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+footer {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+    background-color: #2e9afe;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    box-sizing: border-box;
+}
+.section img{
+    max-width: 100%;
+    margin-bottom: 1px;
+    display: flex;
+}
+.section svg{
+    margin: 0 30px;
+    cursor: pointer;
+}
+.section h2{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+.section li{
+    font-size: 15px;
+    list-style: none;
+    color: #000000;
+    margin: 10px 0;
+    text-decoration: none;
+}
+.section a{
+    text-decoration: none;
+    color: #000000;
+}
+.imagencita{
+    width: 100%;
+    height: 200px;
+  }
+.grupo-2{
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+.grupo-3 small{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grupo-3{
+    width: 100%;
+    background-color: #000000;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff;
+}

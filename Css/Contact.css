@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.superior{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.head{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.arribita{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: end;
+    margin: 0 4rem;
+    text-align: end;
+    float: right;
+}
+.encabezado{    
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo{
+    background-color: #f8f1da;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #002164;
+}
+.navegacion{
+    width: 100%;
+    height: 11rem;
+    display: flex;
+    background-color: #f8f1da;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 90px;
+}
+.navegacion img{
+    margin: 0 90px;
+    width: 8.2rem;
+}
+.head2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.nave{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 4rem;
+    text-align: end;
+    float: right;
+}
+.nave a{
+    text-decoration: none;
+    color: #002164;
+    font-weight: bold;
+}
+.portada1{
+    width: 100%;
+    height: 70vh;
+    margin-top: 170px;
+}
+
+.portada1 img{
+    width: 100%;
+    height: 60vh;
+}
+.contacto{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+.lado-a{
+    width: 50%;
+    padding: 50px;
+    
+}
+.lado-b{
+    width: 50%;
+    padding: 150px 50px;
+    font-size: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* width: 300px; */
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.info-text {
+    flex: 1;
+}
+
+.contacts{
+    text-align: start;
+    margin-top: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.mapa{
+    width: 100%;
+    height: auto;
+    background-color: #002164;
+  }
+  .mapa img{
+    width: 100%;
+  }
+footer {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+    background-color: #2e9afe;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    box-sizing: border-box;
+}
+.section img{
+    max-width: 100%;
+    margin-bottom: 1px;
+    display: flex;
+}
+.section svg{
+    margin: 0 30px;
+    cursor: pointer;
+}
+.section h2{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+.section li{
+    font-size: 15px;
+    list-style: none;
+    color: #000000;
+    margin: 10px 0;
+    text-decoration: none;
+}
+.section a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.imagencita{
+    width: 100%;
+    height: 200px;
+  }
+.grupo-2{
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+.grupo-3 small{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grupo-3{
+    width: 100%;
+    background-color: #000000;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff;
+}
